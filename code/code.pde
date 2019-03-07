@@ -1,24 +1,34 @@
-Personaggio Ron;
-class Personaggio{
-   PShape forma;
-   PShape castello;
-   int xRon= 150;
+Personaggio ron;
+Oggetto castello;
 
-   Personaggio(String "ron.obj") {
-    forma = loadShape("ron.obj");
-    forma.setFill(color(255 ,0,0));
-}
-void disegna(float x, float y) {
-    shape(forma, x, y);
+class Personaggio {
+  PShape ron;
+  int x;
+  int y;
 
+  Personaggio() {
+    ron=loadShape("castle.obj");
   }
 }
 
+class Oggetto {
+  PShape castello;
+
+  Oggetto() {
+    castello=loadShape("castle.obj");
+  }
+}
+
+
 void setup() {
-fullScreen(P3D);
+  fullScreen(P3D);
+  ron = new Personaggio();
+  ron.x = width/10;
+  ron.y = height/5;
 }
 
 void draw() {
-  background(0,0,255);
+  background(0, 0, 255);
   lights();
+  
 }
