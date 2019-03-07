@@ -32,7 +32,7 @@ Quando avete finito e **comunque 5 minuti prima** dello scadere del tempo (vi ve
 - [ ] far muovere il personaggio da destra verso sinistra
 - [ ] analogamente a quanto fatto finora, creare una classe Edificio con un metodo per disegnarlo
 - [ ] creare una variabile per il castello e disegnare il castello
-- [ ] far fermare il personaggio quando arriva al castello
+- [ ] far fermare il personaggio quando arriva al castello __(fino a qui per la sufficienza)__
 
 - [ ] aggiungere due variabili di classe `x` e `y`, di tipo `float`, alla classe `Personaggio`
 - [ ] aggiungere un metodo `avanza()` alla classe `Personaggio`, senza argomenti, che fa avanzare il personaggio verso il castello
@@ -46,8 +46,10 @@ Quando avete finito e **comunque 5 minuti prima** dello scadere del tempo (vi ve
 - [ ] codice che compila
 - [ ] chiarezza del codice (commenti, identificativi, etc.)
 
-TOT: 20
+Totale punti: 20
+
 Sufficienza: 11
+
 Per avere il massimo del voto bisogna avere il massimo del punteggio.
 
 
