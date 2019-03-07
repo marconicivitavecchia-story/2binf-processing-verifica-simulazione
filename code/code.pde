@@ -8,7 +8,7 @@ class Personaggio {
 
   Personaggio() {
     shape=loadShape("ron.obj");
-   
+    shape.setFill(color(255, 0, 0));
   }
 }
 
@@ -31,6 +31,5 @@ void setup() {
 void draw() {
   background(0, 0, 255);
   lights();
-  shape(ron.shape ,ron.x,ron.y);
-  
+  shape(ron.shape, ron.x, ron.y);
 }
