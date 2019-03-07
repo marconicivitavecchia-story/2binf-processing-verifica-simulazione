@@ -2,12 +2,13 @@ Personaggio ron;
 Oggetto castello;
 
 class Personaggio {
-  PShape ron;
+  PShape shape;
   int x;
   int y;
 
   Personaggio() {
-    ron=loadShape("castle.obj");
+    shape=loadShape("ron.obj");
+   
   }
 }
 
@@ -30,5 +31,6 @@ void setup() {
 void draw() {
   background(0, 0, 255);
   lights();
+  shape(ron.shape ,ron.x,ron.y);
   
 }
