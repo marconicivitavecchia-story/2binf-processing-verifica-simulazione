@@ -54,6 +54,6 @@ Per avere il massimo del voto bisogna avere il massimo del punteggio.
 # Note generali
 Eseguite spesso la vostra applicazione per essere sicuri di procedere correttamente
 
-**È possibile** consultare Internet o progetti di esempio forniti dal docente durante la verifica.
+**È possibile** consultare Internet o dal [progetto di esempio](https://github.com/marconicivitavecchia-story/cappuccetto-rosso) del professore durante la verifica.
 
 Al contrario, **non è possibile** comunicare o copiare dai compagni di classe.
