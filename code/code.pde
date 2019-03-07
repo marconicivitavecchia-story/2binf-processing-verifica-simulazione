@@ -26,4 +26,4 @@ void draw() {
   lights();
   ron.disegna(ron.ron, (width/10)*100, (height/50)*100);
   castle.disegna(castle.castle, (width/90*100), (height/50)*100);
-}
+ }
