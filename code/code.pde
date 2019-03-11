@@ -1,14 +1,14 @@
-object castello;
+Edificio castello;
 
-class object {
-  PShape castello;
-  object(String filename) {
-    castello = loadShape(filename);
-    castello.setFill(color(#B2B2B2));
+class Edificio {
+  PShape shape;
+  Edificio(String filename) {
+    shape = loadShape(filename);
+    shape.setFill(color(#B2B2B2));
   }
 
   void disegna(float x, float y) {
-    shape(castello, x, y);
+    shape(shape, x, y);
   }
 }
 
@@ -23,7 +23,7 @@ class Personaggio {
     shape.setFill(color(#FF0000));
   }
 
-  void disegna(float x, float y) {
+  void disegna() {
     shape(shape, x, y);
   }
 }
@@ -34,16 +34,16 @@ void setup() {
 
   ron = new Personaggio("ron.obj");
 
-  castello = new object("castle.obj");
+  castello = new Edificio("castle.obj");
 }
 
 void draw() {
   background(000000);
 
   lights();
-  shape(castello.castello, width/10*9, height/2);
+  castello.disegna(width/10*9, height/2);
 
-  ron.disegna(ron.x, ron.y);
+  ron.disegna();
 
   if (ron.x < width/10*9) {
     ron.x=ron.x + ron.xron;
